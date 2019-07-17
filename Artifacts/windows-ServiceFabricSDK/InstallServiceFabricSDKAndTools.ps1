@@ -64,6 +64,7 @@ function Get-VSVersionNumber
     {
         'Visual Studio 2015' { return 14 }
         'Visual Studio 2017' { return 15 }
+        'Visual Studio 2019' { return 16 }
         default { throw "Unsupported Visual Studio version specified: $VSVersion" }
     }
 }

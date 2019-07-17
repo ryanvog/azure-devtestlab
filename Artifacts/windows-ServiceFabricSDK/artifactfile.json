@@ -16,9 +16,10 @@
       "type": "string",
       "allowedValues": [
         "Visual Studio 2015",
-        "Visual Studio 2017"
+        "Visual Studio 2017",
+        "Visual Studio 2019"
       ],
-      "defaultValue": "Visual Studio 2017",
+      "defaultValue": "Visual Studio 2019",
       "allowEmpty": false,
       "displayName": "Visual Studio Version",
       "description": "Target Visual Studio version to apply the Service Fabric SDK and Tools."
